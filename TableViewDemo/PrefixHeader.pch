@@ -1,0 +1,26 @@
+//
+//  PrefixHeader.pch
+//  TableViewDemo
+//
+//  Created by jkt on 16/4/1.
+//  Copyright © 2016年 czc. All rights reserved.
+//
+
+#ifdef __OBJC__
+
+
+#define STUDENT_STATE_NEWADD                @"STUDENT_STATE_NEWADD"
+#define STUDENT_STATE_SUBJECT_ONE           @"SUBJECT_ONE"
+#define STUDENT_STATE_SUBJECT_TWO           @"SUBJECT_TWO"
+#define STUDENT_STATE_SUBJECT_THREE         @"SUBJECT_THREE"
+#define STUDENT_STATE_SUBJECT_FOUR          @"SUBJECT_FOUR"
+#define STUDENT_STATE_GRADUATE              @"GRADUATE"
+#define SubjectTypeArray                    @[STUDENT_STATE_NEWADD,STUDENT_STATE_SUBJECT_ONE,       STUDENT_STATE_SUBJECT_TWO,STUDENT_STATE_SUBJECT_THREE,STUDENT_STATE_SUBJECT_FOUR,STUDENT_STATE_GRADUATE]
+
+#define THEME_COLOR [UIColor colorWithRed:236/255.0 green:235/255.0 blue:240/255.0 alpha:1]
+
+#import "Masonry.h"
+#import "SWTableViewCell.h"
+#import "NSString+Helpers.h"
+
+#endif
